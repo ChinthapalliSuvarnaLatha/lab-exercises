@@ -1,0 +1,99 @@
+registration form
+<!DOCTYPE html>
+<head>
+  <title>College Registration Form</title>
+</head>
+<body>
+  <h2>College Registration Form</h2>
+  <form>
+    <table>
+      <tr>
+        <td><label for="fn">First Name:</label></td>
+        <td><input type="text" name="fn" id="fn"></td>
+      </tr>
+
+      <tr>
+        <td><label for="ln">Last Name:</label></td>
+        <td><input type="text" name="ln" id="ln"></td>
+      </tr>
+
+      <tr>
+        <td><label for="address">Address:</label></td>
+        <td><textarea name="address" rows="3" cols="30"></textarea></td>
+      </tr>
+      <tr>
+  <td><label for="dob">Date of Birth:</label></td>
+  <td>
+    <input type="date" name="dob" id="dob" min="1950-01-01" max="2025-07-23">
+  </td>
+</tr>
+
+
+      <tr>
+        <td><label for="age">Enter Age:</label></td>
+        <td><input type="number" name="age" id="age" min="18" max="90"></td>
+      </tr>
+
+      <tr>
+        <td><label for="phone">Enter Phone Number:</label></td>
+        <td><input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="country">Select Your Country:</label></td>
+        <td>
+          <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UAE">UAE</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>Image:</label></td>
+        <td><img src="https://media.geeksforgeeks.org/wp-content/uploads/20240703165023/Frontend-Development-(1).webp" width="250" height="250" alt="Sample"></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" name="email" id="email"></td>
+      </tr>
+
+      <tr>
+        <td><p>Hobbies:</p></td>
+        <td>
+    <input type="checkbox" name="hobbies" value="Reading" id="hb1">
+    <label for="hb1">Reading</label><br>
+
+    <input type="checkbox" name="hobbies" value="Writing" id="hb2">
+    <label for="hb2">Writing</label><br>
+
+    <input type="checkbox" name="hobbies" value="Listening Music" id="hb3">
+    <label for="hb3">Listening Music</label><br>
+
+    <input type="checkbox" name="hobbies" value="Dancing" id="hb4">
+    <label for="hb4">Dancing</label><br>
+
+    <input type="checkbox" name="hobbies" value="Watching Movies" id="hb5">
+    <label for="hb5">Watching Movies</label><br>
+  </td>
+        <td>
+          <input type="checkbox" name="hobbies
+          <tr><br>
+  <td><label for="qualification">Qualification:</label></td>
+  <td>
+    <select name="qualification" id="qualification">
+      <option value="">--Select--</option>
+      <option value="High School">High School</option>
+      <option value="Diploma">Diploma</option>
+      <option value="Undergraduate">Undergraduate</option>
+      <option value="Postgraduate">Postgraduate</option>
+      <option value="PhD">PhD</option>
+    </select>
+  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
