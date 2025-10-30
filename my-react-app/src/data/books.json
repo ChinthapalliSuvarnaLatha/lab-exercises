@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "price": 499,
+    "availability": "in stock"
+  },
+  {
+    "id": 2,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "price": 399,
+    "availability": "in stock"
+  },
+  {
+    "id": 3,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "price": 599,
+    "availability": "out of stock"
+  }
+]
